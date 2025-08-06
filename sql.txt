@@ -1,0 +1,17 @@
+USE database_name
+CREATE DATABASE database_name;
+USE database_name;
+CREATE TABLE table_name( columnname datatype condition,......);
+INSERT INTO table_name values(value1, value2...);
+
+INSERT INTO table_name(col1,col2..)
+values(value1, value2...);
+ALTER TABLE table_name addcloumn column_name datatype(size);
+ALTER TABLE table_name rename column old_name to new_name;
+ALTER TABLE table_name DROP column_name;
+ALTER TABLE table_name MODIFY column_name datatype(newsize);
+UPDATE table_name SET column_name=null WHERE Condition;
+DELETE FROM table_name WHERE condition;
+DROP TABLE table_name;
+TRUNCATE TABLE table_name;
+
